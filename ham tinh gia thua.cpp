@@ -1,0 +1,1 @@
+#include <stdio.h>long long gt(int n){	if (n<=1)		return 1;	return gt(n-1)*n;}int main(){	int n,x;	printf("\n\n\nNhập x:");	scanf("%d", &x);	for (n=1; n<=x; n++){	printf("%d giai thừa = %lld\n", n, gt(n));}printf("\n\n\n\n");}
