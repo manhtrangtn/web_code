@@ -21,4 +21,5 @@ int main ()
     printf("\n\n\n");
     m++;
 } while (m<=5);
+return 0;
 }
